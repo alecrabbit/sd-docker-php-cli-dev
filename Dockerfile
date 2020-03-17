@@ -11,6 +11,9 @@ RUN pecl install xdebug-${PHP_XDEBUG_VERSION} \
     && composer --no-interaction global --prefer-stable require 'ergebnis/composer-normalize' \
     && composer --no-interaction global --prefer-stable require 'squizlabs/php_codesniffer' \
     && composer --no-interaction global --prefer-stable require 'phpstan/phpstan' \
+    && composer --no-interaction global --prefer-stable require 'phpstan/phpstan-symfony' \
+    && composer --no-interaction global --prefer-stable require 'phpstan/phpstan-doctrine' \
+    && composer --no-interaction global --prefer-stable require 'phpstan/extension-installer' \
     && composer --no-interaction global --prefer-stable require 'vimeo/psalm' \
     && composer --no-interaction global --prefer-stable require 'sensiolabs/security-checker' \
     && composer --no-interaction global --prefer-stable require 'friendsofphp/php-cs-fixer'
