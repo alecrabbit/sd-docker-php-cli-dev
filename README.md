@@ -1,13 +1,13 @@
 # docker-php-cli-dev
 
 ```
-FROM ${REPO_OWNER}/php-cli
+FROM sd2020/php-cli
 ```
 
 > CI/CD have to be triggered manually
 
 ```
-docker pull ${REPO_OWNER}/php-cli-dev
+docker pull sd2020/php-cli-dev
 ```
 
 > This image is also pushed(CI/CD) to public hub.docker.com account
