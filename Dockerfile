@@ -1,4 +1,4 @@
-FROM dralec/php-cli
+FROM ${SD_DOCKER_LOGIN}/php-cli
 
 ENV PHP_XDEBUG_VERSION 2.9.2
 
